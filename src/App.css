@@ -17,10 +17,25 @@ p {
 
 .primaryColor {
   color: gray;
+  font-weight: 500;
+}
+
+.applicationColor{
+  color: black;
+  font-weight: 500;
 }
 
 .iconColor {
   color: grey;
+}
+
+.textColor { margin: 0; font-weight: 500; color: "black" }
+
+.dropdowntoggle {
+  border-bottom: '1px solid #595959';
+  border-radius: 0;
+  padding: 5;
+  color: '#595959';
 }
 
 .dropdown-toggle {
@@ -69,6 +84,10 @@ p {
 
 .dropdown-toggle .btn:active {
   outline: none;
+}
+
+.tagButton {
+  background-color: white;
 }
 
 .addButton {
