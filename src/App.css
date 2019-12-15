@@ -20,7 +20,7 @@ p {
   font-weight: 500;
 }
 
-.applicationColor{
+.applicationColor {
   color: black;
   font-weight: 500;
 }
@@ -29,10 +29,14 @@ p {
   color: grey;
 }
 
-.textColor { margin: 0; font-weight: 500; color: "black" }
+.textColor {
+  margin: 0;
+  font-weight: 500;
+  color: 'black';
+}
 
 .dropdowntoggle {
-  border-bottom: '1px solid #595959';
+  border-bottom: '1px solid #595959 !important';
   border-radius: 0;
   padding: 5;
   color: '#595959';
