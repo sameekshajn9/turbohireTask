@@ -13,7 +13,8 @@ export default () => {
           borderBottom: '1px solid #595959',
           borderRadius: 0,
           padding: 5,
-          color: '#595959'
+          color: '#595959',
+          fontWeight: "500"
         }}
       >
         {selectedvalue}
