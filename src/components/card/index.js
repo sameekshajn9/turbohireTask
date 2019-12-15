@@ -1,29 +1,29 @@
 import React, { useState } from "react"
 import { Dropdown } from 'react-bootstrap';
 
-export default () => (<div class="bottomView">
-    <p class="heading competencyColor">Competency</p>
-    <p class="primaryColor">Primary</p>
+export default () => (<div className="bottomView">
+    <p className="heading competencyColor">Competency</p>
+    <p className="primaryColor">Primary</p>
     <p>
         <span className="applicationColor">Application Developer</span>
-        <i class="fa fa-share-square-o"></i>
+        <i className="fa fa-share-square-o"></i>
     </p>
-    <div class="rating">
+    <div className="rating">
         <span>
-            <i class="fa fa-star "></i>
+            <i className="fa fa-star "></i>
         </span>
         <span>
-            <i class="fa fa-star"></i>
+            <i className="fa fa-star"></i>
         </span>
         <span>
-            <i class="fa fa-star"></i>
+            <i className="fa fa-star"></i>
         </span>
         <span>
-            <i class="fa fa-star"></i>
+            <i className="fa fa-star"></i>
         </span>
         <span>
-            <i class="fa fa-star filled"></i>
+            <i className="fa fa-star filled"></i>
         </span>
     </div>
-    <i class="fa fa-chevron-down dropStyle"></i>
+    <i className="fa fa-chevron-down dropStyle"></i>
 </div>)

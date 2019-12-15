@@ -1,14 +1,14 @@
 import React from "react"
 
 export default () => (<div>
-    <button class="button tagButton">
+    <button className="button tagButton">
     <span style={{
             fontWeight: 500
-        }}>Interview</span><i class="fa fa-close"></i>
+        }}>Interview</span><i className="fa fa-close"></i>
     </button>
-    <button class="button addButton" style={{ marginLeft: 10 }}>
+    <button className="button addButton" style={{ marginLeft: 10 }}>
         <span style={{
             fontWeight: 500
-        }}>Add Tag</span><i class="fa fa-plus"></i>
+        }}>Add Tag</span><i className="fa fa-plus"></i>
     </button>
 </div>)

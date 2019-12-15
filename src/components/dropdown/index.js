@@ -5,7 +5,7 @@ export default () => {
   const options = ['Interview', 'Meeting', 'Scrum'];
   const [selectedvalue, setSelectedValue] = useState(options[0]);
   return (
-    <Dropdown class="col-3">
+    <Dropdown className="col-3">
       <Dropdown.Toggle
         variant=""
         id="dropdown-basic"
@@ -16,6 +16,7 @@ export default () => {
           color: '#595959',
           fontWeight: "500"
         }}
+        className="dropdowntoggle"
       >
         {selectedvalue}
       </Dropdown.Toggle>

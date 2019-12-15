@@ -8,8 +8,8 @@ import AddTagComponent from "./components/add-tag"
 function App() {
   return (
     <div className="App">
-      <div class="row">
-        <span class="col-9 heading myFont">Sameeksha Jain</span>
+      <div className="row">
+        <span className="col-9 heading myFont">Sameeksha Jain</span>
         <Dropdown />
       </div>
       <p className="textColor">sameekshajn9@gmail.com</p>
