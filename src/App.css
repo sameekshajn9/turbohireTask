@@ -1,38 +1,125 @@
 .App {
+  position: relative;
+  padding: 30px;
+}
+
+.heading {
+  font-weight: 600;
+}
+
+p {
+  color: #595959;
+}
+
+.competencyColor {
+  color: #27b12e;
+}
+
+.primaryColor {
+  color: gray;
+}
+
+.iconColor {
+  color: grey;
+}
+
+.dropdown-toggle {
+  float: right;
+  border-bottom: black;
+  margin: inherit;
+}
+
+.roundedView {
+  color: black;
+  padding: 20px;
   text-align: center;
+  display: inline-block;
+  border-radius: 38px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottomView {
+  box-shadow: 3px 4px 8px #89c8e282;
+  height: 200;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  border: 1px solid gray;
+  color: gray;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:active,
+.button:focus {
+  /* border: none; */
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown-toggle .btn:active {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addButton {
+  background-color: #ececec;
+  border-color: #ececec;
+}
+
+.fa {
+  margin-left: 30px;
+}
+
+.fa-plus,
+.fa-close,
+.fa-share-square-o {
+  margin-left: 10px;
+}
+
+.fa-envelope-o {
+  margin-left: 0px;
+}
+
+.fa-star {
+  margin-left: 5px;
+}
+
+.filled {
+  color: gold;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  /* text-align: center; */
+  font-family: FontAwesome;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  /* width: 1.1em; */
+  color: gray;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: '\f005';
+  position: absolute;
+  left: -10;
+  color: gold;
+}
+
+.dropStyle {
+  margin: 40px 10px 10px 0px;
+  float: right;
 }
